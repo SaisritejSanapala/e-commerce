@@ -1,0 +1,22 @@
+.checkout-wizard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+  
+  .checkout-line {
+    background: #ffea00;
+    height: 3px;
+    width: 100%; 
+    position: absolute;
+    bottom: 0;
+    transition: width 0.3s;
+  }
+  
+  .checkout-step {
+    flex: 1;
+    text-align: center;
+  }
+  
